@@ -1,0 +1,4 @@
+1 - Insira um número
+2 - Dividir o numero utilizando o operador % por 2
+3 - Resto da divisão =0? Par
+4 - Resto da divisão não igual a 0? Impar
