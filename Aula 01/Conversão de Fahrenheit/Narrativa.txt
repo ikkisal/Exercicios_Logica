@@ -1,0 +1,9 @@
+1 - Receber quantidade de graus
+2 - Converter para Fahrenheit?
+3 - Realizar a conversão utilizando a formula:
+4 - (X °C * 9/5)+32
+5 - Mostrar resultado da conversão
+6 - Converter para Celsius?
+7 - Realizar a conversão utilizando a formula:
+8 - (X °F − 32) × 5/9
+9 - Mostrar resultado da conversão
