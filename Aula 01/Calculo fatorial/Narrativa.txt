@@ -1,0 +1,9 @@
+1 - Insira um número
+2 - Pegar o número
+3 - É um número inteiro?
+4 - Se sim, pergntar se é negativo
+5 - Se não, fazer um loop para o topico 2
+6 - É negativo?
+7 - Se sim, retornar ao topico 2, se não prosseguir para a proxima
+8 - É diferente de 0?
+9 - Se sim, prosseguir para o processo. Se não, retornar ao topico 2
