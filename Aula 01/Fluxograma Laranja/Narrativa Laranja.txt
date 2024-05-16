@@ -1,0 +1,13 @@
+Fazer um suco de laranja.
+
+1 - Separar os ingredientes: Água, suco concentrado de laranja, açucar
+2 - Pegar uma garrafa
+3 - Colocar água em 1/3 da garrafa
+4 - Colocar 1/4 de suco concentrado
+5 - Decisão: colocar açucar?
+6 - Se sim, adicionar três colheres de açucar
+7 - Se não, misturar o suco
+8 - Experimentar
+9 - Decisão: Está gostoso?
+10 - Se sim, aproveitar o suco
+11 - Se não, adicionar açucar

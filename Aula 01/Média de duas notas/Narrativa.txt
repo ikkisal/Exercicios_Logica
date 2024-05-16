@@ -1,0 +1,8 @@
+1 - Receber nota de aluno x
+2 - Analisar notas
+3 - Nota 1
+4 - Nota 2
+5 - Somar as duas notas
+6 - Dividir pela quantidade de notas (duas)
+7 - Se nota for maior que 6,5 (aprovado)
+8 - Se nota for menor que 6,5 (reprovado)
