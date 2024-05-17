@@ -1,0 +1,22 @@
+1 - Batalha começa
+2 - Oponente lança seu pokemon
+3 - Jogador lança seu pokemon
+4 - Jogador tem as opções: Lutar, Pokemons, Itens e correr
+Se escolhido lutar:
+1 - Mostra as opçoes de ataque
+2 - Jogador escolhe opção x
+3 - Se não efetivo, vida não é retirada do player inimigo. Se efetivo, metade da vida do player inimigo e retirada. Se super efetivo vida é drenada por completo
+4 - Se a vida for drenada pela metade ou o ataque não for efetivo, é a vez do player inimigo jogar
+5 - Se player inimigo escolher defesa, defesa é ativada e passa a vez para player. Se escolhido ataque, player inimigo ataca.
+6 - Se o ataque não for efetivo, nada ocorre e passa a vez para o player. Se efetivo, metade da vida do player é drenada e a vez é passada para o mesmo(PODENDO ESCOLHER ITENS PARA CURAR O POKEMON). Se super efetiva, pokemon escolhido do player é abatido.
+Novamente no menu
+1 - Jogador tem as opções: Lutar, Pokemons, Itens e correr
+Se escolhido pokemons:
+1 - Player tem a opção de trocar o pokemon que quiser para lutar ou trocar
+ Novamente no menu
+1 - Jogador tem as opções: Lutar, Pokemons, Itens e correr
+Se escolhido itens:
+1 - Pode utilizar itens que recuperam a vida do pokemon
+Se escolhido fugir:
+1 - Se for possivel fugir, finalizado a batalha
+2 - Se não for possivel, volta para o menu
