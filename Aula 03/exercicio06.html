@@ -1,0 +1,21 @@
+<script>
+    alert("Bem vindo vendedor(a)! Veja se houve lucro, prejuizo ou empate de seus dois produtos");
+
+    let preço_custo = parseInt(prompt("Digite o valor do custo do produto 1: "));
+    let preço_custo2 = parseInt(prompt("Digite o valor do custo do produto 2: "));
+    let preço_venda = parseInt(prompt("Digite o valor de venda do produto 1: "));
+    let preço_venda2 = parseInt(prompt("Digite o valor de venda do produto 2: "));
+    let média_custo = preço_custo + preço_custo2/2;
+    let média_venda = preço_venda + preço_venda2/2;
+
+    if (média_venda > média_custo) {
+        alert("Voce saiu no lucro");
+    }
+    if(média_venda < média_custo){
+        alert("Voce saiu no prejuizo");
+    }
+    if (média_venda = média_custo) {
+        alert("Voce saiu no empate");
+    }
+    alert("A media de custo e: " + média_custo + ( " e a media de venda e: " + média_venda));
+</script>
