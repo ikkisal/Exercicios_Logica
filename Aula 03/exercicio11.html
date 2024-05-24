@@ -1,0 +1,23 @@
+<script>
+   let nivel = (prompt("Qual seu nivel de professor na escola?"));
+   let hora = parseInt(prompt("Qual suas horas trabalhadas?"));
+   let salario = 0;
+   switch (nivel) {
+    case "1":
+        salario = 12 * hora
+        alert("Voce vai receber: " + salario)
+        break;
+   case "2":
+        salario = 17 * hora
+        alert("Voce vai receber: " + salario)
+        break;
+
+   case "3":
+        salario = 25 * hora
+        alert("Voce vai receber: " + salario)
+        break;
+        
+    default:
+        break;
+   }
+</script>

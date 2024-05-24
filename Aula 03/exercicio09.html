@@ -1,10 +1,13 @@
 <script>
     alert("Vamos ver se voce vai ter que pagar multa");
 
-    let penso = parseInt(prompt("Digite o peso dos peixes de hoje: "));
-    let multa = 4;
+    let peso = parseInt(prompt("Digite o peso dos peixes de hoje: "));
 
-    if (peso > 50 + multa) {
-        alert
+    if (peso < 50 || peso == 50) {
+        alert("Voce nao sera multado");
+    }
+
+    else{
+        alert("Voce foi multado, voce tera que pagar: " + (peso - 50) * 4); 
     }
 </script>

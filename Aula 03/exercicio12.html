@@ -1,0 +1,26 @@
+<script>
+    alert("Calcule o valor da sua conta de luz");
+    let cliente = prompt("Qual desses clientes voce seria? Residencial, Comercio ou Industria?");
+
+    let hora = parseInt(prompt("Quantas horas voce utiliza energia?"));
+    
+    switch (cliente) {
+        case "Residencial":
+            let Residencial = 0.60 * hora;
+            alert("O valor da sua conta de luz sera: R$ " + Residencial);
+            break;
+            
+            case "Comercio":
+                let Comercio = 0.48 * hora;
+                alert("O valor da sua conta de luz sera: R$ " + Comercio);
+            break;
+
+            case "Industria":
+                let Industria = 1.29 * hora;
+                alert("O valor da sua conta de luz sera: R$ " + Industria);
+            break;
+
+        default:
+            break;
+    }
+</script>
