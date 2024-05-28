@@ -1,3 +1,28 @@
 <script>
+alert("Ola caro aluno(a) verifique q situacao das suas notas");
+    alert("Digite o valor de suas 3 provas respectivamente: ");
+
+    let prova1 = parseInt(prompt("Digite o valor da 1 prova: "));
+    let prova2 = parseInt(prompt("Digite o valor da 2 prova: "));
+    let prova3 = parseInt(prompt("Digite o valor da 3 prova: "));
     
+    alert("Vamos ver sua média");
+
+    let media = (prova1 + prova2 + prova3) / 3;
+
+    if (media >8 && media <=10) {
+        alert("Voce esta com nota A e sua média é " + media);
+    }
+    if (media >7 && media <=8) {
+        alert("Voce esta com nota B e sua média é " + media);
+    }
+    if (media >6 && media <=7) {
+        alert("Voce esta com nota C e sua média é " + media);
+    }
+    if (media >5 && media <=6) {
+        alert("Voce esta com nota D e sua média é " + media);
+    }
+    if (media >0 && media <=5) {
+        alert("Voce esta com nota R e sua média é " + media);
+    }
 </script>

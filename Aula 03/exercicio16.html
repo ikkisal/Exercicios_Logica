@@ -1,0 +1,17 @@
+<script>
+    alert("Descubra o triangulo");
+
+    let l1 = parseInt(prompt("Digite o valor do lado 1"));
+    let l2 = parseInt(prompt("Digite o valor do lado 2"));
+    let l3 = parseInt(prompt("Digite o valor do lado 3"));
+
+    if (l1 == l2 && l2 == l3) {
+        alert("O triangulo é equilatero e isoceles");
+    }
+    else if (l1 == l2 && l1 != l3 || l1 == l3 && l1 != l2 || l2 == l3 && l2 != l1 ) {
+        alert("O triangulo é isoceles");
+    }
+    else{
+        alert("O triangulo é escaleno");
+    }
+</script>
