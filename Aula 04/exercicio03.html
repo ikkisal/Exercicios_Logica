@@ -1,0 +1,32 @@
+<script>
+    let media_salario = 0;
+    let media_filhos = 0;
+    let maior_salario = 0;
+    let salario_1000 = 0;
+
+    let salario = 0;
+    let filhos = 0;
+    let pessoas = 0;
+    
+    do {
+        pessoas++
+        salario = parseFloat(prompt("Informe o salário: "));
+        
+        if (salario > maior_salario) {
+            maior_salario = salario
+        }
+
+        if (salario<salario_1000) {
+            salario_1000++ 
+        }
+
+        filhos = parseInt(prompt("Informe o número de filhos: "));
+
+        media_salario += salario
+        media_filhos += filhos
+
+    } while (salario > 0);
+
+    alert("A média do salário da populaçao é: " + (media_salario/pessoas) + "\n Média de filhos é: " + (media_filhos/pessoas) + "\n Maior salário é: " + maior_salario + "\n Porcentagem de pessoas com salario 1000 é: " + ((salario_1000/pessoas)*100));
+
+</script>
