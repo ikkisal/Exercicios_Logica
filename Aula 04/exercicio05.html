@@ -1,0 +1,22 @@
+<script>
+    let n = 0;
+    let divisor = 0;
+    let media = 0;
+
+    do {
+        n = parseInt(prompt("Digite um número"));
+        if (n < 0) {
+            alert("O número deve ser maior que zero");
+        }
+
+        if (n >= 0) {
+            media += n
+            divisor++;
+        }
+        
+
+    } while (n>0);
+
+    alert("A media e: " + media/divisor);
+
+</script>
