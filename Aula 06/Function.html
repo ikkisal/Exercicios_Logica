@@ -1,0 +1,141 @@
+<script>
+    let menu = parseInt(prompt("Escolha os exercicios de 1 a 9, para corrigir"));
+    switch (menu) {
+        case 1:
+            exercicio1();
+        break;
+
+        case 2:
+             exercicio2();
+        break;
+
+        case 3:
+            exercicio3();
+        break;
+
+        case 4:
+            exercicio4();
+        break;
+
+        case 5:
+            exercicio5();
+        break;
+
+        case 6:
+        exercicio6();
+        break;
+
+        case 7:
+        exercicio7();
+        break;
+
+        case 8:
+        exercicio8();
+        break;
+
+        case 9:
+        exercicio9();
+        break;
+
+        }
+                
+    function exercicio1(){
+        alert("Ikey");
+    }
+
+    function exercicio2(){
+        let nome = prompt("Qual é o seu nome?");
+        alert("Olá, " + nome + "!");
+    }
+
+    function exercicio3(){
+        let num1 = parseFloat(prompt("Digite um número"));
+        let num2 = parseFloat(prompt("Digite outro número"));
+        let soma = num1 + num2;
+        let sub = num1 - num2;
+        let mult = num1 * num2;
+        let div = num1 / num2;
+        alert("A soma dos números é: " + soma + "\n" + "A subtracao dos números é: " + sub + "\n" + "A multiplicacao dos números é: " + mult + "\n" + "A divisao dos números é: " + div);
+
+    }
+
+    function exercicio4(){
+        let a = prompt("Digite uma palavra");
+        let b = prompt("Digite outra palavra");
+
+        return (a) + (b);
+    }
+
+    function exercicio5(){
+        let idade = parseInt(prompt("Qual sua idade?"));
+
+        if (idade < 18) {
+            alert("Voce nao tem idade para entrar! Saia imediatamente!");
+        }
+
+        else{
+            alert("Voce tem idade para entrar! Bem-vindo (a)! ");
+        }
+    }
+
+    function exercicio6(){
+        let num = parseInt(prompt("Digite um número"));
+        if (num % 2 == 0){
+            alert("O número é par");
+            }
+            else{
+                alert("O número é impar");
+                }
+    }
+
+    function exercicio7(){
+        let numero = parseInt(prompt("Digite um número"));
+
+        for (let i = numero; i >= 0; i--){
+            alert(i);
+        }
+        
+    }
+
+    function exercicio8(){
+        let pessoas = []
+        let maioridade = 0;
+        let menoridade = 0;
+        let fechar = 0;
+
+        while (fechar !=1 ){
+            let idade = parseInt(prompt("Digite a idade da pessoa (ou 0 para fechar)"));
+
+            pessoas.push(idade);
+
+            if (idade>=18) {
+                maioridade++
+            }
+           
+            else{
+                menoridade++
+            }
+            fechar = parseInt(prompt("Digite 1 para ver o resultado"));
+            
+    }
+    alert("Quantidade de pessoas de maior idade: " + maioridade + "\n" + "Quantidade de pessoas de menor idade: " + menoridade + "\n" + "Quantidade de pessoas cadastradas: " + pessoas.length);
+}
+
+    function exercicio9(){ 
+        let numero = parseInt(prompt("Digite um numero"));
+        let par = 0;
+        let impar = 0;
+
+        while (numero!=0) {
+            if (numero % 2 == 0){
+            par++;
+            }
+            else{
+                impar++;
+            }
+            alert("Numeros par " + par + "\n" + "Numeros impares " + impar)
+            numero = parseInt(prompt("Digite um numero"));
+        }
+
+    }
+</script>
