@@ -1,0 +1,46 @@
+<script>
+    alert("Bem vindo(a) ao quiz!" + "\n" + "Vamos ver sobre cultura pop, boa sorte!");
+
+    let pergunta = [["Qual foi o primeiro a ganhar a Champions League? \n Real Madrid \n Ajax \n Atletico de Madrid \n Barcelona"], ["Por que Kratos de God of War matou sua esposa e sua filha? \n Porque Ares disse se ele não matesse sua esposa e sua filha ele não seria mas servo dele \n  Porque elas tentaram matar ele primeiro \n Porque Zeus propôs este desafio."], ["Quem é o protagonista de GTA San Andreas? \n CJ \n Big Smoke \n Rider \n Lula"], ["Que time paulista não tem mundial ? \n Palmeiras \n Sao Paulo \n Corintians \n Flamengo"], ["Qual time carioca tem 3 rebaixamentos ? \n Botafogo \n Flamengo \n Paisandu \n Ponte Preta"]];
+    let respostaCorreta = ["1", "1", "1", "1", "1"];
+    let pontuação = 0;
+
+    Perguntas();
+    alert("Sua pontuação final é: " + pontuação);
+
+    function Perguntas() {
+        let resposta1 = prompt("Pergunta 1 \n" + pergunta [0] +" \n Digite a resposta");
+        Respostas(resposta1, 0);
+
+        let resposta2 = prompt("Pergunta 2 \n" + pergunta [1] +" \n Digite a resposta");
+        Respostas(resposta2, 1);
+
+        let resposta3 = prompt("Pergunta 3 \n" + pergunta [2] +" \n Digite a resposta");
+        Respostas(resposta3, 2);
+
+        let resposta4 = prompt("Pergunta 4 \n" + pergunta [3] +" \n Digite a resposta");
+        Respostas(resposta4, 3);
+
+        let resposta5 = prompt("Pergunta 5 \n" + pergunta [4] +" \n Digite a resposta");
+        Respostas(resposta5, 4);
+        
+    }
+
+    function Respostas(Correta, Pergunta) {
+     if (Correta == respostaCorreta[Pergunta]) {
+        alert("Parabéns! Voce acertou! :) ");
+        Pontuação(true);
+     }
+     else {
+        alert("Que pena! Voce errou! :(");
+        Pontuação(false);
+    }
+
+    function Pontuação(Pontos) {
+        if (Pontos == true) {
+            pontuação++
+        }
+        alert("Sua pontuação é: " + pontuação);
+    }    
+}
+</script>
